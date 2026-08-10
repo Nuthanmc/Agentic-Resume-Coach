@@ -1,0 +1,19 @@
+AI Engineer
+
+Required Skills:
+Python
+Machine Learning
+Deep Learning
+Docker
+AWS
+LangChain
+RAG
+Vector Databases
+Git
+GitHub
+
+Responsibilities:
+Develop AI applications.
+Build RAG systems.
+Deploy machine learning models.
+Work with vector databases.

@@ -1,0 +1,26 @@
+[
+    {
+        "section": "education",
+        "text": "Education\nS-Vyasa Deemed to be University\nBengaluru, KA\nMaster of Computer Applications – Artificial Intelligence and Data Science\n2025 – 2027 (Expected)\n• CGPA: 9.5/10\nNitte Deemed to be University\nMangaluru, KA\nBachelor of Computer Applications – Artificial Intelligence\n2022 – 2025\n• CGPA: 8.03/10"
+    },
+    {
+        "section": "projects",
+        "text": "Projects\nFarmersHub | CNN, NLP, E-commerce\n§ Repo\n• Developed a MERN-based agricultural platform serving crop disease prediction, warehouse management and\ne-commerce workflows.\n• Built CNN-based disease detection achieving 85%+ prediction accuracy.\n• Designed REST APIs using Express.js and MongoDB.\n• Integrated NLP-powered multilingual communication.\nGrade-Chain | Solidity, IPFS, Ethereum, Polygon\n§ Repo\n• Implemented a decentralized system using Solidity and IPFS for secure, tamper-proof academic certificate\nverification on Ethereum and Polygon networks.\n• Enabled QR-code based instant verification, reducing manual verification time to under 5 seconds and ensuring full\ndata integrity."
+    },
+    {
+        "section": "research_publications",
+        "text": "Research Publications\nNeural Networks for Financial Fraud Detection | (View Publication)\nApril 2025\n• Enhancing Security with Scalable Machine Learning and Deep Learning Solutions.\n• Published on IEEE Xplore, 2025. Presented at Mangaluru, Karnataka.\n• Developed scalable deep learning methods to improve financial fraud detection accuracy and efficiency."
+    },
+    {
+        "section": "technical_skills",
+        "text": "Technical Skills\nProgramming Languages: Python, Java, SQL,\nAI & Machine Learning: Machine Learning, Deep Learning, CNN, NLP, Scikit-learn, , PyTorch, NumPy\nData Analytics & Visualization: Power BI,\nDatabases: MongoDB, MySQL\nBlockchain: Solidity, Ethereum, Polygon, IPFS\nTools & Platforms: Git, GitHub, VS Code, Jupyter Notebook\nCore Concepts: Data Structures, OOP, DBMS\nSoft Skills: Problem Solving, Analytical Thinking, Team Collaboration"
+    },
+    {
+        "section": "certifications",
+        "text": "Certifications\nInfosys Springboard | Artificial Intelligence and Machine Learning\nAug 2024 – Jul 2025\nUdemy | Data Science\nTCS iON | Young Professional Course\nHackerRank | Python, C and Java"
+    },
+    {
+        "section": "hackathons",
+        "text": "Hackathons\nHack the Future | Developed FarmersHub Application\nApril 2025\nHackfest’24 | Developed a DApp using Polygon blockchain\nApril 2024\nHack the Chain | Blockchain-based e-voting system\nMarch 2023"
+    }
+]
