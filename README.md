@@ -49,7 +49,7 @@ Example:
 |----------|----------|
 | Match Score | 50% |
 | Matched Skills | Python, ML, Git |
-| Missing Skills | Docker, AWS, LangChain, RAG |
+| Missing Skills | Docker, AWS, LangChain |
 
 ---
 
