@@ -17,20 +17,26 @@ gemini = genai.Client(
     api_key=os.getenv("GEMINI_API_KEY")
 )
 
-qdrant = QdrantClient(
-    host="localhost",
-    port=6333
-)
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+data_file = BASE_DIR / "data" / "structured_resume.json"
+qdrant_path = str(BASE_DIR / "data" / "qdrant_db")
+
+qdrant = QdrantClient(path=qdrant_path)
 
 with open(
-    "structured_resume.json",
+    data_file,
     "r",
     encoding="utf-8"
 ) as f:
     sections = json.load(f)
 
 # Recreate collection
-qdrant.recreate_collection(
+if qdrant.collection_exists(collection_name="resume_structured"):
+    qdrant.delete_collection(collection_name="resume_structured")
+
+qdrant.create_collection(
     collection_name="resume_structured",
     vectors_config=VectorParams(
         size=3072,

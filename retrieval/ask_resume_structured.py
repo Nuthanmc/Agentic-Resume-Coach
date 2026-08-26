@@ -9,10 +9,12 @@ client = genai.Client(
     api_key=os.getenv("GEMINI_API_KEY")
 )
 
-qdrant = QdrantClient(
-    host="localhost",
-    port=6333
-)
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+qdrant_path = str(BASE_DIR / "data" / "qdrant_db")
+
+qdrant = QdrantClient(path=qdrant_path)
 
 def ask_resume(question):
 
